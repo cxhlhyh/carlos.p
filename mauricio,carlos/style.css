@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    align-items: center;
+    background-color: rgb(255, 251, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100vw;
+    height: 125px;
+    border-radius: 100px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.header-g1{
+    
+align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.header-g1 > nav{
+    
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.header-g1 > nav >h2{
+    margin-left: 20px;
+
+}
+
+.header-g2{
+    margin-left:30px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+
+}
+
+.imagen1{
+    height: 40px;
+    width: 40px;
+    
+}
+.imagen2{
+    height: 40px;
+    width: 40px;
+    
+}.imagen3{
+    height: 40px;
+    width: 40px;
+    
+}.imagen4{
+    height: 40px;
+    width: 40px;
+   
+}
+.header-g2>button{
+    
+   background-color: rgb(233, 85, 85);
+    border-radius: 100px;
+}
+.header-g2>input{
+    
+    background-color: rgb(233, 85, 85);
+    border-radius: 100px;
+    border: 1px solid white;
+    padding: 8px 12px;
+    outline: none;
+    
+}
+
+.search-box::placeholder{
+    color: rgb(0, 0, 0);
+
+}
